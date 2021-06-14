@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.repos-container {
+    width: 800px;
+    margin: 30px auto;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.repos-container .data-intery {
+    display: flex;
+    padding: 20px;
+    background-color: #ddd;
+}
+.repos-container .data-intery input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 22px;
+}
+.repos-container .data-intery input:focus {
+    outline: #f44336;
+}
+.repos-container .data-intery button {
+    width: 120px;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: #f44336;
+    border: none;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.repos-container .show-data .main-div {
+    padding: 15px;
+    background-color: white;
+}
+.main-div:not(:last-child) {
+    margin-bottom: 10px;
+}
+.project-link {
+    float: right;
+    text-decoration: none;
+    background-color: #f44336;
+    padding: 5px 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.repos-container .show-data .main-div span {
+    float: right;
+    text-decoration: none;
+    background-color: #2196f3;
+    padding: 5px 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+}
